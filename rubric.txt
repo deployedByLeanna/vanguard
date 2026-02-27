@@ -1,0 +1,39 @@
+Validated HTML5
+Returns no error and no warnings at https://validator.w3.org/nu/Links to an external site.
+
+Semantic HTML5/Information Architecture
+The Heading structure returns a logical order from https://validator.w3.org/nu/Links to an external site.
+
+Grid Layout
+Demonstrates understanding of grid layout
+
+Media Queries
+Demonstrates understanding of media queries-- syntax, breakpoints at 800 and 1024
+
+Mobile First
+The Global Style is for mobile first
+
+Published URL
+Published URL rather than the repository URL
+
+CSS Document Structure
+/* CSS BY NAME */
+/* IMPORTED FONTS */
+/* CSS REST */
+/* ROOT VARIABLES */
+/* GLOBAL STYLES (mobile first/small) */
+/* MEDIA QUERY MEDIUM */
+/* MEDIA QUERY LARGE */
+
+Imported Typography
+Added Inter with @import and styled it
+
+Animations, Transitions, Transforms
+
+Form styles
+
+SVG
+Added SVG sucessfully
+
+Mobile Menu
+Demonstrates understanding mobile menu
