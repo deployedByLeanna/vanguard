@@ -1,7 +1,7 @@
-Validated HTML5
+DONE - Validated HTML5
 Returns no error and no warnings at https://validator.w3.org/nu/Links to an external site.
 
-Semantic HTML5/Information Architecture
+DONE - Semantic HTML5/Information Architecture
 The Heading structure returns a logical order from https://validator.w3.org/nu/Links to an external site.
 
 Grid Layout

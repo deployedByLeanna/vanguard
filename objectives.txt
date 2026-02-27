@@ -1,0 +1,10 @@
+Develop a responsive layout webpage
+Code semantic, validated HTML5
+Demonstrate CSS you've learned so far (with emphasis on this module)
+Imported typography
+Animations, transitions and transforms
+Form styles
+SVG
+Mobile Menu
+Publish files to the web using GitHub Desktop > GitHub > GitHub Pages
+Tools
