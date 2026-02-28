@@ -9,3 +9,9 @@ SVG
 Mobile Menu
 Publish files to the web using GitHub Desktop > GitHub > GitHub Pages
 Tools
+
+Size
+Breakpoints based on the mockups
+Global style = mobile first
+Medium- min-width: 800px
+Large- min-width: 1024px

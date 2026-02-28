@@ -64,17 +64,29 @@ table {
 }
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
-*{
+body{
     color: var(--white);
-
     font-family: var(--font);
+    font-size: 1rem;
 }
 
-/* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX 
+/* HEADER STYLES */
+header {
+    background: var(--black);
+    padding: 2rem;
+    text-align: inline-block;
+
+    box-shadow: 0px 5px 15px 1px var(--blue);
+
+    position: relative;
+    z-index: 1000;
+}
+
+/* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 @media (min-width <=400px)
 {
 }
-*/
+
 
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
 .container {
