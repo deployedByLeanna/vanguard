@@ -402,7 +402,6 @@ nav h1::before {
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
-    transition: ;
     height: 0;
 }
 /* THIS ONE IS DONE FOR YOU */
@@ -446,6 +445,17 @@ nav h1::before {
     .bar-chart {
         width: 50%;
     }
+@media (min-width: 800px) {
+        .offer_cards_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
 
-
+    .results_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
 /* MEDIA QUERIES (LARGE) */
