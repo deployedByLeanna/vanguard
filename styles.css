@@ -193,10 +193,40 @@ nav li:hover a {
     transition: color .3s ease-in;
 }
 
+/*HEADING STYLES*/
 
+h2, h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p, blockquote {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+#section1 .container{
+      /* Blur effect*/
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 1rem 0.25rem;
+}
+
+#section1 .container h2, blockquote {
+    margin-bottom: 2rem;
+}
+
+#section1 q{
+    background-color: var(--blue);
+    padding: 1rem;
+    border-radius: 5px;
+
+    font-weight: bold;
+}
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
-@media (min-width <=400px)
-{
+@media (min-width: 400px) {
+
 }
 
 
