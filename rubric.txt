@@ -28,7 +28,7 @@ DONE /* MEDIA QUERY LARGE */
 DONE Imported Typography
 DONE Added Inter with @import and styled it
 
-Animations, Transitions, Transforms
+DONE Animations, Transitions, Transforms
 
 DONE Form styles
 
