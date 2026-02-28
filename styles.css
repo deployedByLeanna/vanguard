@@ -196,15 +196,23 @@ nav li:hover a {
 /*HEADING STYLES*/
 
 h2, h3 {
-    font-size: 2rem;
     font-weight: bold;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
 p, blockquote {
     font-size: 1.125rem;
     line-height: 1.5;
     margin-top: 1rem;
 }
+
+/*SECTION 1 STYLES (INNOVATION & INVESTMENT)*/
 
 #section1 .container{
       /* Blur effect*/
@@ -224,6 +232,34 @@ p, blockquote {
 
     font-weight: bold;
 }
+
+/*SECTION 2 STYLES (OUR EXPERTISE. YOUR EDGE.)*/
+#section2 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    color: var(--black);
+}
+
+.offer_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 2rem;
+
+    border-radius: 10px;
+}
+
+#section2 section {
+    margin-bottom: 2rem;   
+}
+
+/*SECTION 3 STYLES (RESULTS)*/
+
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 @media (min-width: 400px) {
 
