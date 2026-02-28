@@ -487,6 +487,24 @@ nav h1::before {
         width: 50%;
     }
 @media (min-width: 800px) {
+    /* NAVIGATION HORIZONTAL FOR DESKTOP VIEW*/
+    nav ul {
+        display: flex ;      
+        flex-direction: row;           
+        position: static;               
+        max-height: 100%;
+        width: auto;
+    }
+
+    nav ul li {
+        padding: 0 1.5rem;
+        text-align: left;
+    }
+
+    /* Hide hamburger on desktop */
+    #label_menu-toggle {
+        visibility: hidden;
+    }
         .offer_cards_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
