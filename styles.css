@@ -459,3 +459,22 @@ nav h1::before {
     }
 }
 /* MEDIA QUERIES (LARGE) */
+@media (min-width: 1024px) {
+        .offer_cards_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .results_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, auto);  
+    }
+}
