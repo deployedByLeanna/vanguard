@@ -63,6 +63,7 @@ table {
     --font: "Inter", sans-serif;
 }
 
+
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
 body{
     color: var(--white);
@@ -87,6 +88,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    
 }
 
 /*NAVIGATION STYLES*/
@@ -95,6 +97,10 @@ nav h1 {
     font-size: 2rem;
     font-weight: bold;
     margin: 0;
+
+    /*FIX FOR THE FLOATING LOGO*/
+    position: absolute;
+    left: 4rem;
 }
 
 nav label {
@@ -112,7 +118,7 @@ nav ul {
     background: var(--black);
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease;
+
 }
 
 input:checked ~ ul {
@@ -153,6 +159,8 @@ nav {
     align-items: center;
     position: relative;
 }
+
+
 /* HIDE THE CHECKBOX AND H2 ELEMENTS */
 nav input {
     display: none;
@@ -161,6 +169,30 @@ nav h2 {
   visibility:hidden;
   height:1px;
 }
+
+nav ul li {
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul li a {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*HOVER EFFECTS FOR NAVIGATION LINKS */
+nav li:hover, nav input:hover{
+    background-color: var(--blue);
+    transition: background-color .3s ease-in;
+}
+nav li:hover a {
+    color: var(--black);
+    transition: color .3s ease-in;
+}
+
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 @media (min-width <=400px)
@@ -187,10 +219,13 @@ nav h2 {
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
-nav h1 {
+nav h1::before {
     content: "";
+    position:absolute;
 
-    left:-.5rem;
+    /* POSITION THE LOGO TO THE LEFT OF THE H1 AND CENTERED VERTICALLY - Changed and adjusted values for correction */
+    left: -4.5rem;
+    top: -50%;
     width: 3.75rem;
     height: 3.75rem;
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
