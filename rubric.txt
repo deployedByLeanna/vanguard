@@ -10,30 +10,30 @@ Demonstrates understanding of grid layout
 Media Queries
 Demonstrates understanding of media queries-- syntax, breakpoints at 800 and 1024
 
-Mobile First
-The Global Style is for mobile first
+DONE Mobile First
+DONE The Global Style is for mobile first
 
 Published URL
 Published URL rather than the repository URL
 
 CSS Document Structure
-/* CSS BY NAME */
-/* IMPORTED FONTS */
-/* CSS REST */
-/* ROOT VARIABLES */
-/* GLOBAL STYLES (mobile first/small) */
+DONE /* CSS BY NAME */
+DONE /* IMPORTED FONTS */
+DONE /* CSS REST */
+DONE /* ROOT VARIABLES */
+DONE /* GLOBAL STYLES (mobile first/small) */
 /* MEDIA QUERY MEDIUM */
 /* MEDIA QUERY LARGE */
 
-Imported Typography
-Added Inter with @import and styled it
+DONE Imported Typography
+DONE Added Inter with @import and styled it
 
 Animations, Transitions, Transforms
 
-Form styles
+DONE Form styles
 
-SVG
-Added SVG sucessfully
+DONE SVG
+DONE Added SVG sucessfully
 
-Mobile Menu
-Demonstrates understanding mobile menu
+DONE Mobile Menu
+DONE Demonstrates understanding mobile menu

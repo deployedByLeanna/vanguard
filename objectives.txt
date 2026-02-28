@@ -12,6 +12,6 @@ Tools
 
 Size
 Breakpoints based on the mockups
-Global style = mobile first
+DONE Global style = mobile first (MIN WIDTH 400PX)
 Medium- min-width: 800px
 Large- min-width: 1024px

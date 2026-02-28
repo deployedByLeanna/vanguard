@@ -309,6 +309,7 @@ input[type="text"], textarea {
 }
 
 textarea {
+
     max-width: 100%;
     resize: vertical;
 }
@@ -345,7 +346,9 @@ footer p {
 }
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 @media (min-width: 400px) {
-
+    body {
+    min-width: 400px;
+}
 }
 
 
