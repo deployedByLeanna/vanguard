@@ -4,10 +4,10 @@ Returns no error and no warnings at https://validator.w3.org/nu/Links to an exte
 DONE - Semantic HTML5/Information Architecture
 The Heading structure returns a logical order from https://validator.w3.org/nu/Links to an external site.
 
-Grid Layout
+DONE Grid Layout
 Demonstrates understanding of grid layout
 
-Media Queries
+DONE Media Queries
 Demonstrates understanding of media queries-- syntax, breakpoints at 800 and 1024
 
 DONE Mobile First
@@ -22,8 +22,8 @@ DONE /* IMPORTED FONTS */
 DONE /* CSS REST */
 DONE /* ROOT VARIABLES */
 DONE /* GLOBAL STYLES (mobile first/small) */
-/* MEDIA QUERY MEDIUM */
-/* MEDIA QUERY LARGE */
+DONE /* MEDIA QUERY MEDIUM */
+DONE /* MEDIA QUERY LARGE */
 
 DONE Imported Typography
 DONE Added Inter with @import and styled it
