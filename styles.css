@@ -215,7 +215,6 @@ p, blockquote {
 
 section {
     padding: 2rem;
-    margin-bottom: 2rem;
 }
 /*SECTION 1 STYLES (INNOVATION & INVESTMENT)*/
 
@@ -309,6 +308,11 @@ input[type="text"], textarea {
     border: solid 3px var(--blue);
 }
 
+textarea {
+    max-width: 100%;
+    resize: vertical;
+}
+
 input[type="submit"] {
     align-self: center;
     width: 100%;
@@ -321,7 +325,24 @@ input[type="submit"] {
     font-weight: bold;
 }
 
+/*FOOTER STYLES*/
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+}
 
+footer p {
+    font-size: smaller;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+#footer_email {
+    color: var(--blue);
+
+}
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 @media (min-width: 400px) {
 

@@ -30,6 +30,7 @@
         </ul>
     </nav>
 </header>
+<main>
     <section id="section1">
         <!--Adding div per class instructions from CSS sheet-->
         <div class="container">
@@ -139,14 +140,17 @@
             <input type="text" id="industry" name="industry"><br>
             <label for="feedback">How can we help you?</label>
             <textarea id="feedback" name="feedback" rows="3" ></textarea><br>
-
             <input type="submit" value="Submit">
         </form>
-        
+</main>
         <footer>
-            For educational purposes only. 
-            Email: info@vaanguard.com 
-            Phone: 480.123.4567
+            <!-- Excluding "Vanguard" + copyright symbol due to copyright violation on GitHub-->
+            <p>For educational purposes only.</p>
+            <address>
+            <p>Email: <a href="mailto:info@vanguard.com" id="footer_email">info@vanguard.com</a></p>
+            <p>Phone: <a href="tel:4801234567" style="text-decoration: none; color: var(--white);">480.123.4567</a></p>
+            </address>
+            
         </footer>
         </section>
     </body>
