@@ -212,6 +212,11 @@ p, blockquote {
     margin-top: 1rem;
 }
 
+
+section {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
 /*SECTION 1 STYLES (INNOVATION & INVESTMENT)*/
 
 #section1 .container{
@@ -259,6 +264,34 @@ p, blockquote {
 }
 
 /*SECTION 3 STYLES (RESULTS)*/
+#section3 {
+    background-color: var(--blue);
+    color: var(--white);
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+
+    background-color: var(--black);
+    text-align: center;
+    line-height: 3rem;
+}
+
+th, td {
+        border: solid 1px var(--charcoal);
+}
+
+tr:nth-child(even) {
+    background-color: var(--charcoal);
+}
+table caption {
+    text-align: left;
+}
+
+/*SECTION 4 STYLES (BAR CHART)*/
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 @media (min-width: 400px) {
